@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css"
-import "swiper/css/pagination"
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
 
-import "./styles.css"
-import { Mousewheel, Pagination } from "swiper"
+import "./styles.css";
+import { Mousewheel, Pagination } from "swiper";
 
 const Animation = () => {
   return (
@@ -32,7 +32,7 @@ const Animation = () => {
         <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
     </>
-  )
-}
+  );
+};
 
-export default Animation
+export default Animation;
